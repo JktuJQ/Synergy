@@ -1,0 +1,3 @@
+# shuttle-rs
+/backend/.shuttle*
+/backend/Secrets*.toml

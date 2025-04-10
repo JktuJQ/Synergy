@@ -10,3 +10,17 @@ license = "MIT OR Apache-2.0"
 edition = "2021"
 
 [dependencies]
+chrono = "0.4.40"
+
+serde = "1.0.219"
+
+tokio = "1.28.2"
+
+axum = { version = "0.8.1", features = ["macros"] }
+
+sqlx = { version = "0.8.3", features = ["macros"] }
+
+# shuttle-rs
+shuttle-runtime = "0.53.0"
+shuttle-axum = "0.53.0"
+shuttle-shared-db = { version = "0.53.0", features = ["postgres", "sqlx"] }
